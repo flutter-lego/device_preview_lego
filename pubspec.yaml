@@ -1,7 +1,7 @@
 name: device_preview_lego
 description: "lego that integrates the device_preview package"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/device_preview_lego
 
 version: 1.0.0+1
 
