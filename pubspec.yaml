@@ -1,0 +1,30 @@
+name: device_preview_lego
+description: "lego that integrates the device_preview package"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/lego
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: #@add
+  flutter_svg: #@add
+  gap: #@add
+  june_flow_util:
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  keyboard_attachable: #@add
+  flutter_zoom_drawer: #@add
+  device_preview: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
