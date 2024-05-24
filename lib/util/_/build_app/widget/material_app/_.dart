@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import '../../../../../main.dart';
 
 import '../../../shared_params/_/material_app.dart';
+import 'device_preview_lego/_.dart';
 
 Widget materialAppInsideBuilder(BuildContext context, Widget? child) {
+  child = coverDevicePreviewLego(context, child!);
+
   return child!;
 }
 

@@ -3,7 +3,7 @@ description: "lego that integrates the device_preview package"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/device_preview_lego
 
-version: 1.0.0+1
+version: 1.0.2
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -19,7 +19,7 @@ dependencies:
   modal_bottom_sheet: #@add
   keyboard_attachable: #@add
   flutter_zoom_drawer: #@add
-  device_preview: #@add
+  device_preview_minus: #@add
 
 dev_dependencies:
   flutter_test:
